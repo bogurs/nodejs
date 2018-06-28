@@ -60,7 +60,7 @@ const update = (req, res) => {
 };
 
 module.exports = {
-    index,
+    index, //es6 문법으로 index: index를 축소해서 쓴 것이다.
     show,
     destroy,
     create,
