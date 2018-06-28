@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 const sequelize = new Sequelize({
     dialect: 'sqlite',
-    db: './db.sqlite'
+    storage: './db.sqlite'
 });
 
 //User DB 모델 생성
