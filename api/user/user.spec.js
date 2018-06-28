@@ -90,7 +90,7 @@ describe('DELETE /users/1', ()=>{
     });
 });
 
-describe.only('POST /users', ()=>{
+describe('POST /users', ()=>{
     const users = [{name: 'alice'}, {name: 'bek'}, {name: 'chris'}];
     before(()=>models.sequelize.sync({force: true}));
     before(()=>models.User.bulkCreate(users));
@@ -133,7 +133,7 @@ describe.only('POST /users', ()=>{
     });
 });
 
-describe('PUT /users/:id', ()=>{
+describe.only('PUT /users/:id', ()=>{
     const users = [{name: 'alice'}, {name: 'bek'}, {name: 'chris'}];
     before(()=>models.sequelize.sync({force: true}));
     before(()=>models.User.bulkCreate(users));
