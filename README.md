@@ -33,3 +33,7 @@ javascript 개발자
 현 우아한형제들 개발자
 위플래닛 개발자
 블로그: http://blog.jeonghwan.net/
+
+위 교육에 대한 제 개인적인 정리파일은
+웹개발자되기_TDD로 만드는 NodeJS API 서버.docx
+로 확인하실 수 있습니다.
